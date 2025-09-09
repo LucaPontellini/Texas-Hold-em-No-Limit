@@ -1,54 +1,265 @@
-[
-    {"value": "2", "seed": "Hearts"},
-    {"value": "3", "seed": "Hearts"},
-    {"value": "4", "seed": "Hearts"},
-    {"value": "5", "seed": "Hearts"},
-    {"value": "6", "seed": "Hearts"},
-    {"value": "7", "seed": "Hearts"},
-    {"value": "8", "seed": "Hearts"},
-    {"value": "9", "seed": "Hearts"},
-    {"value": "10", "seed": "Hearts"},
-    {"value": "J", "seed": "Hearts"},
-    {"value": "Q", "seed": "Hearts"},
-    {"value": "K", "seed": "Hearts"},
-    {"value": "A", "seed": "Hearts"},
-    {"value": "2", "seed": "Diamonds"},
-    {"value": "3", "seed": "Diamonds"},
-    {"value": "4", "seed": "Diamonds"},
-    {"value": "5", "seed": "Diamonds"},
-    {"value": "6", "seed": "Diamonds"},
-    {"value": "7", "seed": "Diamonds"},
-    {"value": "8", "seed": "Diamonds"},
-    {"value": "9", "seed": "Diamonds"},
-    {"value": "10", "seed": "Diamonds"},
-    {"value": "J", "seed": "Diamonds"},
-    {"value": "Q", "seed": "Diamonds"},
-    {"value": "K", "seed": "Diamonds"},
-    {"value": "A", "seed": "Diamonds"},
-    {"value": "2", "seed": "Clubs"},
-    {"value": "3", "seed": "Clubs"},
-    {"value": "4", "seed": "Clubs"},
-    {"value": "5", "seed": "Clubs"},
-    {"value": "6", "seed": "Clubs"},
-    {"value": "7", "seed": "Clubs"},
-    {"value": "8", "seed": "Clubs"},
-    {"value": "9", "seed": "Clubs"},
-    {"value": "10", "seed": "Clubs"},
-    {"value": "J", "seed": "Clubs"},
-    {"value": "Q", "seed": "Clubs"},
-    {"value": "K", "seed": "Clubs"},
-    {"value": "A", "seed": "Clubs"},
-    {"value": "2", "seed": "Spades"},
-    {"value": "3", "seed": "Spades"},
-    {"value": "4", "seed": "Spades"},
-    {"value": "5", "seed": "Spades"},
-    {"value": "6", "seed": "Spades"},
-    {"value": "7", "seed": "Spades"},
-    {"value": "8", "seed": "Spades"},
-    {"value": "9", "seed": "Spades"},
-    {"value": "10", "seed": "Spades"},
-    {"value": "J", "seed": "Spades"},
-    {"value": "Q", "seed": "Spades"},
-    {"value": "K", "seed": "Spades"},
-    {"value": "A", "seed": "Spades"}
-]
+{
+  "cards": [
+    {
+      "value": "A",
+      "seed": "Hearts",
+      "img": "card_images/hearts/01_hearts.png"
+    },
+    {
+      "value": "2",
+      "seed": "Hearts",
+      "img": "card_images/hearts/02_hearts.png"
+    },
+    {
+      "value": "3",
+      "seed": "Hearts",
+      "img": "card_images/hearts/03_hearts.png"
+    },
+    {
+      "value": "4",
+      "seed": "Hearts",
+      "img": "card_images/hearts/04_hearts.png"
+    },
+    {
+      "value": "5",
+      "seed": "Hearts",
+      "img": "card_images/hearts/05_hearts.png"
+    },
+    {
+      "value": "6",
+      "seed": "Hearts",
+      "img": "card_images/hearts/06_hearts.png"
+    },
+    {
+      "value": "7",
+      "seed": "Hearts",
+      "img": "card_images/hearts/07_hearts.png"
+    },
+    {
+      "value": "8",
+      "seed": "Hearts",
+      "img": "card_images/hearts/08_hearts.png"
+    },
+    {
+      "value": "9",
+      "seed": "Hearts",
+      "img": "card_images/hearts/09_hearts.png"
+    },
+    {
+      "value": "10",
+      "seed": "Hearts",
+      "img": "card_images/hearts/10_hearts.png"
+    },
+    {
+      "value": "J",
+      "seed": "Hearts",
+      "img": "card_images/hearts/11_hearts.png"
+    },
+    {
+      "value": "Q",
+      "seed": "Hearts",
+      "img": "card_images/hearts/12_hearts.png"
+    },
+    {
+      "value": "K",
+      "seed": "Hearts",
+      "img": "card_images/hearts/13_hearts.png"
+    },
+    {
+      "value": "A",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/01_diamonds.png"
+    },
+    {
+      "value": "2",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/02_diamonds.png"
+    },
+    {
+      "value": "3",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/03_diamonds.png"
+    },
+    {
+      "value": "4",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/04_diamonds.png"
+    },
+    {
+      "value": "5",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/05_diamonds.png"
+    },
+    {
+      "value": "6",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/06_diamonds.png"
+    },
+    {
+      "value": "7",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/07_diamonds.png"
+    },
+    {
+      "value": "8",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/08_diamonds.png"
+    },
+    {
+      "value": "9",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/09_diamonds.png"
+    },
+    {
+      "value": "10",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/10_diamonds.png"
+    },
+    {
+      "value": "J",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/11_diamonds.png"
+    },
+    {
+      "value": "Q",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/12_diamonds.png"
+    },
+    {
+      "value": "K",
+      "seed": "Diamonds",
+      "img": "card_images/diamonds/13_diamonds.png"
+    },
+    {
+      "value": "A",
+      "seed": "Clubs",
+      "img": "card_images/clubs/01_clubs.png"
+    },
+    {
+      "value": "2",
+      "seed": "Clubs",
+      "img": "card_images/clubs/02_clubs.png"
+    },
+    {
+      "value": "3",
+      "seed": "Clubs",
+      "img": "card_images/clubs/03_clubs.png"
+    },
+    {
+      "value": "4",
+      "seed": "Clubs",
+      "img": "card_images/clubs/04_clubs.png"
+    },
+    {
+      "value": "5",
+      "seed": "Clubs",
+      "img": "card_images/clubs/05_clubs.png"
+    },
+    {
+      "value": "6",
+      "seed": "Clubs",
+      "img": "card_images/clubs/06_clubs.png"
+    },
+    {
+      "value": "7",
+      "seed": "Clubs",
+      "img": "card_images/clubs/07_clubs.png"
+    },
+    {
+      "value": "8",
+      "seed": "Clubs",
+      "img": "card_images/clubs/08_clubs.png"
+    },
+    {
+      "value": "9",
+      "seed": "Clubs",
+      "img": "card_images/clubs/09_clubs.png"
+    },
+    {
+      "value": "10",
+      "seed": "Clubs",
+      "img": "card_images/clubs/10_clubs.png"
+    },
+    {
+      "value": "J",
+      "seed": "Clubs",
+      "img": "card_images/clubs/11_clubs.png"
+    },
+    {
+      "value": "Q",
+      "seed": "Clubs",
+      "img": "card_images/clubs/12_clubs.png"
+    },
+    {
+      "value": "K",
+      "seed": "Clubs",
+      "img": "card_images/clubs/13_clubs.png"
+    },
+    {
+      "value": "A",
+      "seed": "Spades",
+      "img": "card_images/spades/01_spades.png"
+    },
+    {
+      "value": "2",
+      "seed": "Spades",
+      "img": "card_images/spades/02_spades.png"
+    },
+    {
+      "value": "3",
+      "seed": "Spades",
+      "img": "card_images/spades/03_spades.png"
+    },
+    {
+      "value": "4",
+      "seed": "Spades",
+      "img": "card_images/spades/04_spades.png"
+    },
+    {
+      "value": "5",
+      "seed": "Spades",
+      "img": "card_images/spades/05_spades.png"
+    },
+    {
+      "value": "6",
+      "seed": "Spades",
+      "img": "card_images/spades/06_spades.png"
+    },
+    {
+      "value": "7",
+      "seed": "Spades",
+      "img": "card_images/spades/07_spades.png"
+    },
+    {
+      "value": "8",
+      "seed": "Spades",
+      "img": "card_images/spades/08_spades.png"
+    },
+    {
+      "value": "9",
+      "seed": "Spades",
+      "img": "card_images/spades/09_spades.png"
+    },
+    {
+      "value": "10",
+      "seed": "Spades",
+      "img": "card_images/spades/10_spades.png"
+    },
+    {
+      "value": "J",
+      "seed": "Spades",
+      "img": "card_images/spades/11_spades.png"
+    },
+    {
+      "value": "Q",
+      "seed": "Spades",
+      "img": "card_images/spades/12_spades.png"
+    },
+    {
+      "value": "K",
+      "seed": "Spades",
+      "img": "card_images/spades/13_spades.png"
+    }
+  ],
+  "back": "card_images/card_back.jpg"
+}
